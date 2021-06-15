@@ -12,7 +12,6 @@ RUN cd /usr/src && \
     echo "${MODULE_CHECKSUM}  v${MODULE_VERSION}.zip" | shasum -c && \
     unzip v${MODULE_VERSION}.zip && \
     mv ${MODULE_NAME}-${MODULE_VERSION}/ ${MODULE_NAME} && \
-    mv ${MODULE_NAME}-${MODULE_VERSION}/ ${MODULE_NAME} && \
     cd /usr/src/nginx && \
     echo $CONFARGS && \
     ./configure --with-compat $CONFARGS --add-dynamic-module=../${MODULE_NAME}/ && \
