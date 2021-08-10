@@ -16,6 +16,14 @@ simple robot mitigation module using cookie based challenge/response technique. 
     </thead>
     <tbody>
         <tr>
+            <td>1.21.1</td>
+            <td>master</td>
+            <td><ul>
+                <li>docker pull soulteary/prebuilt-nginx-modules:ngx-1.21.1-test-cookie-access-master</li>
+                <li>docker pull soulteary/prebuilt-nginx-modules:ngx-1.21.1-test-cookie-access-master-alpine</li>
+            </ul></td>
+        </tr>
+        <tr>
             <td>1.21.0</td>
             <td>master</td>
             <td><ul>
